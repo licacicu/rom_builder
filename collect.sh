@@ -9,11 +9,11 @@ export USE_CCACHE=1
 ccache -M 50G -F 0
 ccache -o compression=true
 ccache -z
-export BUILD_USERNAME="IndraDP"
-export BUILD_HOSTNAME="idev"
+export BUILD_USERNAME="flora"
+export BUILD_HOSTNAME="lunar"
 export WITHOUT_CHECK_API=true
-lunch nad_juice-userdebug
-mka nad &
+lunch derp_tissot-userdebug
+mka derp &
 sleep 97m
 kill %1
 ccache -s
